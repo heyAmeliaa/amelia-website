@@ -1,0 +1,450 @@
+
+.navbar{
+	display: flex;
+	background:transparent;
+	flex-direction: row;
+	align-items:end;
+	justify-content: space-between;
+}
+
+.navbox{
+	display: flex;
+	flex-direction: row;
+	align-items:center;
+	height: 65px;
+	padding-right: 150px;
+	padding-top:20px;
+	padding-bottom: 5px;
+}
+
+.logo{
+	justify-content: flex-start;
+	padding-left: 150px;
+}
+
+.box{
+	padding:15px;
+	font-weight: 800;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+a:link{
+	text-decoration: none;
+	color: #333;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #9d4edd;
+}
+
+a:active{
+	text-decoration: none;
+	color: #333;
+}
+
+
+/* Here is hero*/
+.landing{
+	display: flex;
+	flex-direction: row;
+	padding: 100px 200px 100px 150px;
+	align-items: center;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-bottom: 45px;
+}
+
+.amelia{
+	font-size: 28px;
+	color: #333;
+
+}
+
+.UXD{
+	font-size: 18px;
+	color: gray;
+	font-style: italic;
+	padding-top: 10px;
+	color: #7f7f7f;
+}
+
+.value{
+	font-size: 48px;
+	text-align: left;
+	padding: 50px 0px 50px 0px;
+	color: #333;
+	font-weight: 350;
+}
+
+.image{
+	border-radius:50%;
+	padding-left: 200px;
+	padding-right: 30px;
+}
+
+/* Here is Projects*/
+#project{
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   grid-template-rows: repeat(10,100px);
+   gap: 30px;
+   margin-bottom: 100px;
+}
+
+.ProjectA{
+   grid-column: 1/ span 3;
+   grid-row: 1/span 4;
+   background-color: lightgray;
+}
+
+.ProjectA img{
+	width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.panote{
+	grid-column: 1/ span 3;
+   grid-row: 5/span 1;
+   display: flex;
+   flex-direction: column;
+   text-align:center;
+   justify-content: center;
+   line-height: 30px;
+}
+
+.ProjectB{
+   grid-column: 4/ span 2;
+   grid-row: 1/span 4;
+   background-color: lightgray;
+}
+
+.ProjectB img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pbnote{
+	grid-column: 4/ span 2;
+   grid-row: 5/span 1;
+   display: flex;
+   flex-direction: column;
+   text-align:center;
+   justify-content: center;
+   line-height: 30px;
+}
+
+.ProjectC{
+   grid-column: 1/ span 2;
+   grid-row: 6/span 4;
+   background-color: lightgray;
+}
+
+.pcnote{
+	grid-column: 1/ span 2;
+   grid-row: 10/span 1;
+   display: flex;
+   flex-direction: column;
+   text-align:center;
+   justify-content: center;
+   line-height: 30px;
+}
+
+.ProjectC img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ProjectD{
+   grid-column: 3/ span 3;
+   grid-row: 6/span 4;
+   background-color: lightgray;
+   text-align:center;
+}
+
+.pdnote{
+	grid-column: 3/ span 3;
+   grid-row: 10/span 1;
+   display: flex;
+   flex-direction: column;
+   text-align:center;
+   justify-content: center;
+   line-height: 30px;
+}
+
+.ProjectD img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.projecttitle{
+	font-size:22px;
+	color: black;
+	font-weight: 400px;
+}
+
+.projectdescription{
+	color: #7f7f7f;
+	font-weight: 300px;
+	font-style: italic;
+	padding-top: 10px;
+}
+
+
+/* Here is footer*/
+.footer{
+	background-color:#f4f4f4;
+	padding: 80px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.gettouch{
+	font-size: 36px;
+	font-weight:450;
+	color: #333;
+}
+
+.contact{
+	font-size: 18px;
+	color: #333;
+}
+
+.readmorebutton{
+	border:none;
+	background-color: white;
+	color: #461780;
+	font-size: 15px;
+	font-weight: 550;
+	padding: 0px;
+}
+
+
+
+
+/* Here is AboutMe*/
+.mybio{
+   padding-top: 100px;
+   padding-bottom: 100px;
+   padding-right: 150px;
+   padding-left: 150px;
+   display: flex;
+   align-items: end;
+   flex-direction: row;
+   line-height: 1.5;
+   letter-spacing: 0.2px;
+}
+
+.ighlight{
+	font-weight: 500;
+	font-style: italic;
+}
+
+.myphoto{
+	display: flex;
+	align-items: start;
+}
+
+.hereisphoto{
+	border-radius: 5px;
+}
+
+.bio{
+	display: flex;
+	flex-direction: column;
+	padding-left: 50px ;
+	align-content: space-between;
+}
+
+.Hello{
+	font-size: 120px;
+	font-weight: 550;
+	margin-bottom: 180px;
+}
+
+.resume{
+	flex: ;
+}
+
+.me{
+	color: #9d9d9d;
+}
+
+.myvalue{
+	font-weight:500;
+	font-size: 14px;
+	font-style: italic;
+	padding-left: 20px;
+
+}
+
+.biolist{
+	font-weight: lighter;
+	line-height: 25px;
+}
+
+span{
+	font-weight: 500;
+	font-style: italic;
+}
+
+#mypro{
+	display: flex;
+	flex-direction: row;
+	align-items: start;
+	justify-content: space-between;
+	padding: 50px 150px;
+}
+
+.title{
+	border-bottom-color: #333;
+	border-top-color: white;
+	border-left-color: white;
+	border-right-color: white;
+	border-style: solid;
+	padding: 10px 300px 10px 10px;
+	font-weight: 550;
+}
+
+.prodetail{
+	line-height: 30px;
+	color:#7f7f7f ;
+	padding-left: 15px;
+}
+
+.university{
+	font-weight: 550;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	color:#333 ;
+}
+
+.major{
+	padding-bottom: 10px;
+	padding-left: 15px;
+	color:#7f7f7f ;
+}
+
+.connect{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content:center;
+	margin: 50px 150px 0px 150px;
+	border-top-color: #D9D9D9;
+	border-bottom-color: white;
+	border-left-color: white;
+	border-right-color: white;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.connect1{
+	font-size: 42px;
+	font-weight: 550;
+	padding-bottom: 25px;
+	padding-top: 50px;
+}
+
+.connect2{
+	padding-bottom: 10px;
+}
+
+.connect3{
+	padding-bottom: 50px;
+}
+
+
+
+/* Here is Contact*/
+.sayHello{
+	font-size: 84px;
+	font-weight: 550;
+	text-align: center;
+}
+
+.myimage{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 30px;
+}
+
+.hereismyimage{
+	border-radius:50%;
+}
+
+.container2{
+	background-color:#f8f9fa ;
+	margin: 0px 500px 0px 500px;
+	padding: 50px 50px 35px 50px;
+	border-radius: 20px;
+}
+
+.contactinfo{
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+	color: #7f7f7f;
+}
+
+.form{
+	display: flex;
+	justify-content: center;
+	margin-top: 80px;
+}
+
+input{
+	background-color: white;
+	border: 0px;
+	padding: 5px;
+	margin: 10px;
+	height: 40px;
+	width: 500px;
+}
+
+input::placeholder{
+	color: #7f7f7f;
+	font-size: 15px;
+	padding-left: 10px;
+}
+
+input:focus{
+	border-bottom: 0.1px;
+}
+
+.sendmessage{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 80px;
+}
+
+.hereisbutton{
+	background-color: black;
+	font-size: 16px;
+	color: white;
+	padding: 8px 20px 8px 20px;
+	border-radius: 5px;
+
+}
+
+.resumebutton{
+	background-color: white;
+	padding: 10px 30px 10px 30px;
+}
+
+.detail{
+	display: flex;
+	justify-content: center;
+	margin: 50px 150px 50px 150px;
+}
+
